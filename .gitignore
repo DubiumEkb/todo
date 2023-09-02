@@ -1,0 +1,5 @@
+backend/src/config/env/prod.env
+backend/src/config/env/dev.env
+backend/node_modules
+backend/src/logs/*
+backend/.vscode
