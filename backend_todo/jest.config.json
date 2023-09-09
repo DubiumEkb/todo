@@ -1,0 +1,10 @@
+{
+	"preset": "ts-jest",
+	"testEnvironment": "node",
+	"roots": [
+		"<rootDir>/__tests__"
+	],
+	"transform": {
+		"^.+\\.ts$": "ts-jest"
+	}
+}

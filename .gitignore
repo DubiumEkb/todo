@@ -1,0 +1,5 @@
+# Backend
+backend_todo/logs/*
+backend_todo/node_modules
+backend_todo/src/config/env/development.env
+backend_todo/src/config/env/production.env

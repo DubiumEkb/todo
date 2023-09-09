@@ -1,0 +1,40 @@
+{
+	"appenders": {
+		"console": {
+			"type": "console"
+		},
+		"logger": {
+			"type": "file",
+			"filename": "logs/logger.log"
+		},
+		"access": {
+			"type": "file",
+			"filename": "logs/access.log"
+		},
+		"error": {
+			"type": "file",
+			"filename": "logs/error.log"
+		}
+	},
+	"categories": {
+		"default": {
+			"appenders": [
+				"console",
+				"logger"
+			],
+			"level": "info"
+		},
+		"access": {
+			"appenders": [
+				"access"
+			],
+			"level": "info"
+		},
+		"error": {
+			"appenders": [
+				"error"
+			],
+			"level": "error"
+		}
+	}
+}

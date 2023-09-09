@@ -1,0 +1,52 @@
+{
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:@typescript-eslint/recommended-requiring-type-checking",
+		"plugin:import/errors",
+		"plugin:import/warnings",
+		"plugin:prettier/recommended",
+		"plugin:jest/recommended",
+		"plugin:mongoose/recommended",
+		"plugin:node/recommended"
+	],
+	"plugins": [
+		"@typescript-eslint",
+		"import",
+		"prettier",
+		"jest",
+		"mongoose",
+		"node"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"project": "./tsconfig.json",
+		"tsconfigRootDir": "./"
+	},
+	"overrides": [],
+	"rules": {
+		"prettier/prettier": "error",
+		"@typescript-eslint/explicit-module-boundary-types": "off",
+		"no-console": "off",
+		"strict": [
+			"error",
+			"global"
+		],
+		"no-dupe-class-members": "error",
+		"no-var": "error",
+		"no-unused-vars": "off",
+		"array-callback-return": "warn",
+		"no-class-assign": "error",
+		"no-debugger": "warn",
+		"no-dupe-args": "warn",
+		"no-dupe-else-if": "warn",
+		"no-dupe-keys": "error",
+		"no-duplicate-case": "error",
+		"no-duplicate-imports": "warn",
+		"no-import-assign": "warn",
+		"no-promise-executor-return": "warn",
+		"no-prototype-builtins": "warn",
+		"no-template-curly-in-string": "error",
+		"@typescript-eslint/no-var-requires": "off"
+	}
+}
