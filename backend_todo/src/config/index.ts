@@ -20,4 +20,5 @@ export const config = {
 	api: process.env.API,
 	port: parseInt(process.env.PORT ?? "5000", 10),
 	jwt: process.env.JWT,
+	clientUrl: process.env.CLIENT_URL,
 }
